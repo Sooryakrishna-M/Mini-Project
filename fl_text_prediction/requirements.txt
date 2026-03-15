@@ -1,0 +1,32 @@
+# ============================================================
+# Federated Learning - Next-Word Text Prediction
+# Requirements File
+# Python 3.10+ recommended
+# ============================================================
+
+# Core ML framework
+tensorflow==2.15.0
+
+# TensorFlow datasets (includes IMDB reviews - ~80MB download)
+tensorflow-datasets==4.9.4
+
+# Federated Learning framework (Flower)
+flwr==1.7.0
+
+# Numerical computing
+numpy==1.26.4
+
+# Plotting & visualization
+matplotlib==3.8.4
+
+# Utilities
+tqdm==4.66.2
+
+# ============================================================
+# Installation:
+#   pip install -r requirements.txt
+#
+# For Colab:
+#   !pip install -r requirements.txt
+#   Then restart runtime once.
+# ============================================================
